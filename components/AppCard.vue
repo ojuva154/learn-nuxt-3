@@ -15,14 +15,15 @@
     </q-card-actions>
   </q-card>
 </template>
-  <script setup lang="ts">
-// interface Props {
-//   title?: string;
-// }
-// defineProps<Props>();
+
+<script setup lang="ts">
+interface Props {
+  title?: string;
+}
+defineProps<Props>();
 </script>
-  
-  <style scoped>
+
+<style scoped>
 .card__header {
   padding: 32px 32px 0px 32px;
 }

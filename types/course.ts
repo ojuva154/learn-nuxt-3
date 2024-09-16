@@ -13,9 +13,8 @@ export interface Course {
   gymcodingUrl: string;
 }
 
-type NewType = Omit<Course, 'rating' | 'reviewsCount' | 'studentCount'>;
-
-export interface CourseWithPath extends NewType {
+export interface CourseWithPath
+  extends Omit<Course, 'rating' | 'reviewsCount' | 'studentCount'> {
   rating: string;
   reviewsCount: string;
   studentCount: string;

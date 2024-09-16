@@ -39,7 +39,6 @@ module.exports = {
       {
         arrowSpacing: ['error', { before: true, after: true }],
         singleQuote: true,
-        parser: 'flow',
         semi: true,
         useTabs: false,
         tabWidth: 2,
@@ -48,15 +47,6 @@ module.exports = {
         bracketSpacing: true,
         arrowParens: 'always',
         endOfLine: 'auto',
-      },
-
-      {
-        usePrettierrc: false,
-      },
-      {
-        fileInfoOptions: {
-          withNodeModules: true,
-        },
       },
     ],
   },
